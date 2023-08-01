@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial--scale=1.0">
+        <title>My portfolio</title>
+        <link rel="stylesheet" href="front.css">
+        <script src="https://kit.fontawesome.com/67d977c467.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Maha.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Certifications</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="img">
+                <img src="dp.jpeg" >
+            </div>
+            <div class="header-text">
+                <p>Computer science and Engineering</p>
+                <h1>Hi, I'am <span>Mahalakshmi M</span><br>From Kovilpatti</h1>
+            </div>
+        </div>
+      </div> 
+      <!--------------about----------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img  src="pass1.png">
+                    </div>
+        
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                      <br><p style="font-family: 'Times New Roman', Times, serif;font-size: 100%;">Mahalakshmi M ,Iam currently pursing Computer Science and Engineering in National Engineering College at Kovilpatti.Iam Completed my schooling in Kammavar Girls Higher secondary School Kovilpatti.
+                            Iam interested in Front End Development So I completed the IBM Collaboration with AICTE Internship under the domain of front end development duration of 8 weeks. Iam Completed the 2 Projects in the domain of web development and 
+                            deeplearning with mobile application.Iam participate  in 2 Conferences and Paper presentations and more.Iam completed 2 NPTEL courses.</p><br><br>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>   
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>C programming</span><br>Basics of C programming<br></li>
+                                <li><span>JAVA programming</span><br>Average in Java Programming<br></li>
+                                <li><span>Full Stack Development</span><br>HTML,CSS,PHP,JAVASCRIPT<br></li>
+                            </ul>
+                        </div> 
+                        <div class="tab-contents" id="internship">
+                            <ul>
+                                <li><span>THE SPARKS FOUNDATION-4weeks</span><br><br>Title:Food Application<br>Role:WEB DEVELOPER</li>
+                                <li><span>IBM(AICTE)-8weeks</span><br><br>Title:My Portfolio<br>Role:FRONT END DEVELOPER</li>
+                               
+                            </ul>
+                        </div> 
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023-Current</span><br>Computer Science and Engineering<br>National Engineering college</li>
+                                <li><span>2017-2018</span><br>SSLC<br>Kammavar Girls Higher Secondary School</li>
+                                <li><span>2019-2020</span><br>HSC<br>Kammavar Girls Higher Secondary School</li>
+                            </ul>
+                        </div> 
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+      <!------------services----------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-paragraph"></i>
+                    <h2>Conferences</h2>
+                    <p>13th International Conference on science and Innovative Engineering 2023<br><br>
+                        Paper Title:Plant Classification Based on seeds using deeplearning<br><br>
+                        International Conference on Power and Energy Systems<br><br>
+                        Paper Title:5G Core network classification in control Panel From Network Protocol Perspective
+                    </p>
+                  
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-person-chalkboard"></i>
+                    <h2>Paper Presentation</h2><br><br>
+                    <p>National Technical Symposium-PSNA College of Engineering and Technology<br><br>
+                    Presentation Topic:Nano Technology</p><br>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>INOAUG Oracle Apex Training</h2><br><br>
+                    <p>25-Hours COURSE On Oracle Platform</p><br><br>
+                    <p>One Day Workshop On Oracle Platform</p>
+                
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+<!-------------portfolio-->
+ <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="db.jpg"><br>
+                <div class="layer">
+                    <h3>Quiz Application</h3><br>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domain:JAVA JDBC Connectivity<br><br>The Quiz Application connects you to answer for basic questions and 
+                        show the marks of the individual and once the option is clicked then it does not show the options 
+                    while.Atlast The level of scoring will indicates as red and green colour.if you want you see the leader board 
+                then it will display as the table format.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="webs.jpg"><br>
+                <div class="layer">
+                    <h3>Food Application</h3><br>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domain:Web Development<br><br>In food application it will connects you to order your favourite dishes and review it
+                 Also You have to add in to your cart and order your food.The front end was in language of HTML,CSS,JAVASCRIPT
+                and for backend I use PHP to connect the server</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="dlo.jpg"><br>
+                <div class="layer">
+                    <h3>Seed Classification</h3><br>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domain:Deeplearning with mobile application<br><br>It will connects you to Identify the plants based on seeds.It will 
+                    capture the image of seeds and display the name of the seeds. The seeds were trained and tested in deeplearning part and it will connects 
+                with mobile application for display the seeds name</p>
+                </div>
+            </div>
+        </div>
+      </div>
+ </div>
+
+<!-----------------------contact--------------------->
+<div id="contact">
+    <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>&nbsp;2012068@nec.edu.in</p>
+            <p><i class="fa-solid fa-phone"></i>&nbsp;8248170641</p>
+            <div class="social-icons">
+              <p><i class="fa-solid fa-hand-point-right"></i>&nbsp;<a href="https://www.linkedin.com/in/mahalakshmi-m-4007a2210"><i class="fa-brands fa-linkedin"></i></p></a>
+                
+            </div>
+             <a href="Resume_Maha.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                 </form>
+                 <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Mahalakshmi M</p>
+    </div>
+</div>
+
+
+
+
+
+  <script>
+     var tablinks=document.getElementsByClassName("tab-links");
+     var tabcontents=document.getElementsByClassName("tab-contents"); 
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }event.currentTarget.classList.add("active-link");4
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+
+  </script>
+
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzZvX4RvhgJXN8ojj83Swz7Cuigl0NqP7_PbAp5nw9CeG_-vqQnnaZJJasTerpVKf7LzQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
